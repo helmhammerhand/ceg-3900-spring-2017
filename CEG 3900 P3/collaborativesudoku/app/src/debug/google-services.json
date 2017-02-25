@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "120149369922",
+    "firebase_url": "https://collaborativesudoku.firebaseio.com",
+    "project_id": "collaborativesudoku",
+    "storage_bucket": "collaborativesudoku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120149369922:android:336efee2f2e65af9",
+        "android_client_info": {
+          "package_name": "edu.wright.ceg3900"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120149369922-30kve64tk9dl464gir6hmoabvh7lerpe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.wright.ceg3900",
+            "certificate_hash": "A631B4964D04DE055B2BFA50693C255C583623E3"
+          }
+        },
+        {
+          "client_id": "120149369922-5tjal520n5hlq2kq3oe59dbri8cpea28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9g9feVhD1cjrAOhy0R646YmmItkxHKAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120149369922-5tjal520n5hlq2kq3oe59dbri8cpea28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
