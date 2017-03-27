@@ -30,4 +30,9 @@ Contains code and deliverables for P4
 - 3-4 CommonWordCounter: Android studio project of 3-3. Note that the server is not running.
 - 3-5 Parallel: 3-2 using parallel streams
   
+CEG 3900 P5
+-------------------------------------------
+Contains code and deliverables for P5
+- 3-4 Contains the modified XKCD APK and PHP server code for collaborative XKCD tagging
+- 3-5 Contians the client APK and java server for password similarity checking
   
