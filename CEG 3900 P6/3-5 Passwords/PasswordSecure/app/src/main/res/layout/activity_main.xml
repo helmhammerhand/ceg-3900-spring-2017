@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.frodo.passwordsecure.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Welcome to Password Secure!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prompt"
+        android:layout_below="@+id/title"
+        android:text="Enter a password to begin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:layout_below="@+id/prompt"
+        android:id="@+id/password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estimate Password Strength"
+        android:layout_below="@+id/password"
+        android:onClick="estimatePasswordPressed"
+        android:id="@+id/estimate_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compare to Known Passwords"
+        android:layout_below="@+id/estimate_password"
+        android:onClick="comparePasswordPressed"
+        android:id="@+id/compare_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test With Password Cracker"
+        android:layout_below="@+id/compare_password"
+        android:onClick="crackPasswordPressed"
+        android:id="@+id/crack_password"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prompt2"
+        android:layout_below="@+id/crack_password"
+        android:text="Or check out these killer resources"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn About Password Security"
+        android:layout_below="@+id/prompt2"
+        android:onClick="learnPasswordPressed"
+        android:id="@+id/learn_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:layout_below="@+id/learn_password"
+        android:onClick="helpPressed"
+        android:id="@+id/help"/>
+
+</RelativeLayout>

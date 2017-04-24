@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PasswordSecure</string>
+    <string name="title_activity_learn_stuff">LearnStuffActivity</string>
+    <string name="schneierlink">\<a href='https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html'>Password Choosing Tips</a></string>
+    <string name="cmulink">\<a href='https://www.cs.cmu.edu/~help/security/choosing_passwords.html'>More Password Choosing Tips</a></string>
+    <string name="arstechnicalink">\<a href='https://arstechnica.com/security/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/'>How Passwords Are Cracked</a></string>
+    <string name="googlelink">\<a href='http://google.com/search?q=password+security'>Search google</a></string>
+    <string name="passphrase">\<a href='https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/'>Advantages of Passphrases</a></string>
+    <string name="passphrase2">\<a href='https://arstechnica.com/business/2012/03/passphrases-only-marginally-more-secure-than-passwords-because-of-poor-choices/'>Passphrase Issues</a></string>
+
+</resources>
